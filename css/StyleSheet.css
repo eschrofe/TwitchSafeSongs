@@ -10,12 +10,12 @@ body {
 }
 
 header {
-  border: 1px solid red;
   text-align: center;
   width: 90%;
   margin: 10px auto;
   padding: 2%;
-  background-color: #cccccc
+  background-color: #cccccc;
+
 }
 
 #main {
@@ -24,7 +24,7 @@ header {
   margin: 10px auto;
   width: 90%;
   padding: 2%;
-  background-color: #cccccc
+  background-color: #dddddd
 
 }
 
@@ -34,5 +34,24 @@ footer {
   width: 90%;
   margin: 10px auto;
   padding: 2%;
+  background-color: #dddddd
+}
+
+table, th, td {
+  border: 1px solid red;
   background-color: #cccccc
+}
+
+table {
+  width: 90%;
+  margin: 0 auto;
+}
+
+th, td {
+  padding: 10px;
+
+}
+
+tr {
+  margin: 10px;
 }
